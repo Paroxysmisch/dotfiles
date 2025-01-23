@@ -26,7 +26,7 @@ config.colors = {
     background = 'rgba(5% 6% 9% 80%)',
     inactive_tab = {
       bg_color = 'rgba(5% 6% 9% 80%)',
-      fg_color = 'rgba(5% 6% 9% 90%)',
+      fg_color = 'rgba(40% 40% 40% 90%)',
     },
   },
 }
