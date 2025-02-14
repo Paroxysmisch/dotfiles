@@ -2,4 +2,4 @@
 	name = Yash Shah
 	email = yashshah00@outlook.com
 [core]
-	excludesfile = ./.gitexcludes
+	excludesfile = ~/.gitexcludes
