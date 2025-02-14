@@ -26,7 +26,7 @@ config.colors = {
     background = 'rgba(5% 6% 9% 80%)',
     inactive_tab = {
       bg_color = 'rgba(5% 6% 9% 80%)',
-      fg_color = 'rgba(5% 6% 9% 90%)',
+      fg_color = 'rgba(40% 40% 40% 90%)',
     },
   },
 }
@@ -39,39 +39,9 @@ config.font_size = font_size
 
 config.keys = {
   {
-    key = "V",
-    mods = "CTRL|SHIFT",
-    action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
-  },
-  {
-    key = "S",
-    mods = "CTRL|SHIFT",
-    action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
-  },
-  {
     key = "Tab",
     mods = "CTRL",
     action = wezterm.action.ActivateTabRelative(1),
-  },
-  {
-    key = "h",
-    mods = "CTRL|SHIFT",
-    action = wezterm.action.ActivatePaneDirection("Left"),
-  },
-  {
-    key = "j",
-    mods = "CTRL|SHIFT",
-    action = wezterm.action.ActivatePaneDirection("Down"),
-  },
-  {
-    key = "k",
-    mods = "CTRL|SHIFT",
-    action = wezterm.action.ActivatePaneDirection("Up"),
-  },
-  {
-    key = "l",
-    mods = "CTRL|SHIFT",
-    action = wezterm.action.ActivatePaneDirection("Right"),
   },
   {
     key = "w",

@@ -3,3 +3,5 @@
 	email = yashshah00@outlook.com
 [core]
 	excludesfile = ~/.gitexcludes
+[init]
+	defaultBranch = main
