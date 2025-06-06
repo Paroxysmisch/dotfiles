@@ -3,6 +3,7 @@
 	email = yashshah00@outlook.com
 [core]
 	excludesfile = ~/.gitexcludes
+	editor = "nvim"
 [init]
 	defaultBranch = main
 [filter "lfs"]
