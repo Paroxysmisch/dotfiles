@@ -5,6 +5,8 @@ local config = wezterm.config_builder()
 -- Spawn a fish shell in login mode
 config.default_prog = { "fish", "-l" }
 
+config.tab_max_width = 128
+
 config.color_scheme = "Blue Scheme"
 
 config.color_schemes = {
