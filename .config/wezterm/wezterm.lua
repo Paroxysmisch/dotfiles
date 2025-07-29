@@ -3,7 +3,7 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 -- Spawn a fish shell in login mode
-config.default_prog = { "fish", '-l' }
+config.default_prog = { "fish", "-l" }
 
 config.color_scheme = "Blue Scheme"
 
@@ -64,6 +64,8 @@ config.keys = {
 		mods = "CTRL|SHIFT",
 		action = wezterm.action.CloseCurrentPane({ confirm = true }),
 	},
+	{ key = "{", mods = "CTRL|SHIFT", action = wezterm.action.MoveTabRelative(-1) },
+	{ key = "}", mods = "CTRL|SHIFT", action = wezterm.action.MoveTabRelative(1) },
 }
 
 return config
