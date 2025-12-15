@@ -3,7 +3,10 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 -- Spawn a fish shell in login mode
-config.default_prog = { "fish", "-l" }
+config.default_prog = {
+    "/bin/bash", "-l", "-c",
+    "if [ -f \"$HOME/.nix-profile/etc/profile.d/nix.sh\" ]; then source \"$HOME/.nix-profile/etc/profile.d/nix.sh\"; fi; exec $HOME/.nix-profile/bin/fish -l"
+}
 
 config.tab_max_width = 128
 
