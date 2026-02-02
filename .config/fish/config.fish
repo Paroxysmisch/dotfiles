@@ -3,3 +3,4 @@ if status is-interactive
     alias yy="yazi"
     alias ll="ls -la"
 end
+eval (/opt/homebrew/bin/brew shellenv)
