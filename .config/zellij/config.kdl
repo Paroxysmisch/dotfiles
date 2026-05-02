@@ -80,7 +80,7 @@ keybinds clear-defaults=true {
         bind "up" { MovePane "up"; }
         bind "right" { MovePane "right"; }
         bind "h" { MovePane "left"; }
-        bind "Ctrl m" { SwitchToMode "normal"; }
+        bind "Ctrl n" { SwitchToMode "normal"; }
         bind "j" { MovePane "down"; }
         bind "k" { MovePane "up"; }
         bind "l" { MovePane "right"; }
@@ -161,7 +161,7 @@ keybinds clear-defaults=true {
         bind "Ctrl Shift q" { Quit; }
     }
     shared_except "locked" "move" {
-        bind "Ctrl m" { SwitchToMode "move"; }
+        bind "Ctrl n" { SwitchToMode "move"; }
     }
     shared_except "locked" "session" {
         bind "Ctrl s" { SwitchToMode "session"; }
